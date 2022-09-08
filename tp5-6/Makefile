@@ -9,7 +9,7 @@ savedir = save/
 SRC = $(wildcard $(srcdir)*.c)
 HEAD = $(wildcard *.h)
 OBJ = $(subst $(srcdir), $(bindir), $(SRC:.c=.o))
-PROG = TP8
+PROG = tp6
 
 all : $(PROG)
 
