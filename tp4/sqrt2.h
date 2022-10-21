@@ -69,5 +69,8 @@ void choix_sqrt2(){
             scanf("%d", &n);
             printf("sqrt(2) = %f\n", sqrt2_theon(n));
             break;
+        default : 
+            printf("choix invalide\n");
+            break;
     }
 }

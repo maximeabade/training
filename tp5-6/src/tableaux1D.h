@@ -80,7 +80,7 @@ int estTraversable(int tableau[20]){
             }
         }
     }
-    //on remarque le tableau n 'est pas traversable si on repasse par le meme indice ==> du coup, on peut boucler
+    //on remarque que le tableau n'est pas traversable si on repasse par le meme indice ==> du coup, on peut boucler
     // sur le tableau en en creant un qui contient la liste des indices deja visites, et on continue de se deplacer
     // tant qu on est sur un indice non visite
     //il ne doit pas y avoir plus de 20 trajets, sinon c est qu on est dans une boucle
