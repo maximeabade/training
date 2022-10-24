@@ -210,7 +210,7 @@ void Rebours2(){
     scanf("%d", &n);
     for(i=0; i<=n; i++){
         printf("%d\n", n-i);
-        sleep(1);
+        //sleep(1);
     }
 }
 
