@@ -94,7 +94,7 @@ Donne l\textquotesingle{}heure + 1 minute.
 24/10/2022 
 \end{DoxyDate}
 \begin{DoxyReturn}{Returns}
-null car procédure 
+NULL car procédure 
 \end{DoxyReturn}
 \mbox{\Hypertarget{tp2_8c_a5ba3ac35bd4d768585d1ecc1262af8c0}\label{tp2_8c_a5ba3ac35bd4d768585d1ecc1262af8c0}} 
 \index{tp2.c@{tp2.c}!Rebours@{Rebours}}
