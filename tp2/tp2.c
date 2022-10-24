@@ -1,8 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-
 /*!
     *@file tp2.c
     *@version 1.0
@@ -10,6 +5,13 @@
     *@date 24/10/2022
     *@brief  Operations élémentaires
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+
 
 
 /*!
@@ -151,7 +153,7 @@ void SigneProduit(){
     *@param NULL
     *@version 1.0
     *@date 24/10/2022
-    *@return null car procédure
+    *@return NULL car procédure
 */
 void Prediction(){
     int heures;
