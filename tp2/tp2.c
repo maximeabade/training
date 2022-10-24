@@ -1,10 +1,23 @@
 #include <stdio.h>
 
 
-/*
-Ce programme permet la saisie d un nombre
+/*!
+    *@file tp2.c
+    *@version 1.0
+    *@author Maxime ABADE <abademaxim@cy-tech.fr>
+    *@date 24/10/2022
+    *@brief  Operations élémentaires
 */
 
+
+/*!
+    *@fn SaiseNombre
+    *@brief Saisie d'un nombre
+    *@param NULL
+    *@version 1.0
+    *@date 24/10/2022
+    *@return le nombre saisi
+*/
 int SaisieNombre(){
     int nombre;
     printf("Saisir un nombre : ");
@@ -14,8 +27,13 @@ int SaisieNombre(){
 }
 
 
-/*
-Ce programme permet de rentrer des donnees personnelles
+/*!
+    *@fn SaisieDonnees
+    *@brief Saisie de données personnelles
+    *@param NULL
+    *@version 1.0
+    *@date 24/10/2022
+    *@return 0 si tout s'est bien passé
 */
 int SaisieDonnees(){
     int jour;
@@ -35,9 +53,13 @@ int SaisieDonnees(){
     return(0);
 }
 
-
-/*
-Ce programme permet de diviser 2 entiers
+/*!
+    *@fn DiviserEntiers
+    *@brief Divise deux entiers
+    *@param NULL
+    *@version 1.0
+    *@date 24/10/2022
+    *@return NULL car procédure
 */
 void DiviserEntiers(){
     int a;
@@ -55,8 +77,13 @@ void DiviserEntiers(){
 
 
 
-/*
-Ce programme permet de dire si le produit de deux nombres est positif ou négatif
+/*!
+    *@fn SigneProduit
+    *@brief Dit si le produit de deux entiers est positif ou négatif
+    *@param NULL
+    *@version 1.0
+    *@date 24/10/2022
+    *@return NULL car procédure
 */
 void SigneProduit(){
     int a;
@@ -74,8 +101,13 @@ void SigneProduit(){
 }
 
 
-/*
-Ce programme permet de prédire l'avenir
+/*!
+    *@fn Prediction
+    *@brief Donne l'heure + 1 minute
+    *@param NULL
+    *@version 1.0
+    *@date 24/10/2022
+    *@return null car procédure
 */
 void Prediction(){
     int heures;
@@ -99,8 +131,13 @@ void Prediction(){
 }
 
 
-/*
-Ce programme effectue un compte à rebours (en secondes, code en commentaire)
+/*!
+    *@fn Rebours
+    *@brief Compte à rebours
+    *@param NULL
+    *@version 1.0
+    *@date 24/10/2022
+    *@return lNULL
 */
 void Rebours(){
     int i;
@@ -114,8 +151,13 @@ void Rebours(){
 }
 
 
-/*
-Ce programme effectue un autre comte a rebours avec une autre methode
+/*!
+    *@fn Rebours2
+    *@brief Compte à rebours
+    *@param NULL
+    *@version 1.0
+    *@date 24/10/2022
+    *@return NULL
 */
 void Rebours2(){
     int i;
@@ -130,7 +172,16 @@ void Rebours2(){
 
 
 
-int main(void){
+/*!
+    *@fn main
+    *@brief Saisie d'un nombre
+    *@param argc le nombre d'arguments
+    *@param argv les arguments
+    *@version 1.0
+    *@date 24/10/2022
+    *@return 0 si tout s'est bien passé
+*/
+int main(int argc, char** argv) {
     int choix;
     printf("Faites un choix:\n 1 - Saisie d un nombre\n 2 - Saisie de donnees personnelles\n 3 - Diviser 2 entiers\n 4 - Signe du produit\n 5 - Prediction\n 6 - Compte a rebours\n 7 - Compte a rebours 2\n");
     scanf("%d", &choix);
