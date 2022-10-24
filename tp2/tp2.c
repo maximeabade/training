@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 
 /*!
@@ -37,7 +39,8 @@ int SaisieNombre(){
 */
 int SaisieDonnees(){
     int jour;
-    char mois[20];
+    int numero_mois;
+    char* mois;
     int annee;
     char nom[29];
     char prenom[29];
@@ -46,9 +49,50 @@ int SaisieDonnees(){
     printf("Saisir votre prenom : ");
     scanf("%s", prenom);
     printf("Saisir votre date de naissance (format JJ mois AAAA): ");
-    scanf("%d %s %d", &jour, &mois, &annee);
+    scanf("%d %d %d", &jour, &numero_mois, &annee);
     printf("Vous avez saisi le nom %s\n", nom);
     printf("Vous avez saisi le prenom %s\n", prenom);
+    switch(numero_mois){
+        case 1:
+            mois = "Janvier";
+            break;
+        case 2:
+            mois = "Fevrier";
+            break;
+        case 3: 
+            mois = "Mars";
+            break;
+        case 4:
+            mois = "Avril";
+            break;
+        case 5:
+            mois = "Mai";
+            break;
+        case 6:
+            mois = "Juin";
+            break;
+        case 7:
+            mois = "Juillet";
+            break;
+        case 8:
+            mois = "Aout";
+            break;
+        case 9:
+            mois = "Septembre";
+            break;
+        case 10:   
+            mois = "Octobre";
+            break;
+        case 11:
+            mois = "Novembre";
+            break;
+        case 12:    
+            mois = "Decembre";
+            break;
+        default:
+            printf("Erreur de saisie du mois");
+            break;
+        }
     printf("Vous avez saisi la date de naissance %d %s %d\n", jour, mois, annee);
     return(0);
 }
