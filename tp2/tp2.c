@@ -183,7 +183,7 @@ void Prediction(){
     *@param NULL
     *@version 1.0
     *@date 24/10/2022
-    *@return lNULL
+    *@return NULL
 */
 void Rebours(){
     int i;
