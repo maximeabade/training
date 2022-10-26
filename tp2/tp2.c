@@ -225,7 +225,7 @@ int Rebours2(){
 
 /*!
     *@fn main
-    *@brief Saisie d'un nombre
+    *@brief Menu entre toutes les fonctions disponibles dans le programme
     *@param argc le nombre d'arguments
     *@param argv les arguments
     *@version 1.0
