@@ -24,11 +24,11 @@ int \mbox{\hyperlink{tp2_8c_aa813e79a5885eecf2d0003b9ab6d5601}{Diviser\+Entiers}
 \begin{DoxyCompactList}\small\item\em Divise deux entiers. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{tp2_8c_ad5f61bb5a42d4c6c519af93bbefc061c}{Signe\+Produit}} ()
 \begin{DoxyCompactList}\small\item\em Dit si le produit de deux entiers est positif ou négatif. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{tp2_8c_a70840f97211401de3f953effbf4a3756}{Prediction}} ()
-\begin{DoxyCompactList}\small\item\em Donne l\textquotesingle{}heure + 1 minute. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{tp2_8c_a5ba3ac35bd4d768585d1ecc1262af8c0}{Rebours}} ()
+int \mbox{\hyperlink{tp2_8c_a70840f97211401de3f953effbf4a3756}{Prediction}} ()
+\begin{DoxyCompactList}\small\item\em Donne la date + 1jour. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{tp2_8c_a5ba3ac35bd4d768585d1ecc1262af8c0}{Rebours}} ()
 \begin{DoxyCompactList}\small\item\em Compte à rebours. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{tp2_8c_abeb0b59dc39836adae399947b3a22beb}{Rebours2}} ()
+int \mbox{\hyperlink{tp2_8c_abeb0b59dc39836adae399947b3a22beb}{Rebours2}} ()
 \begin{DoxyCompactList}\small\item\em Compte à rebours. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{tp2_8c_a3c04138a5bfe5d72780bb7e82a18e627}\label{tp2_8c_a3c04138a5bfe5d72780bb7e82a18e627}} 
 int {\bfseries main} (int argc, char $\ast$$\ast$argv)
@@ -82,7 +82,7 @@ Divise deux entiers.
 
 
 
-Donne l\textquotesingle{}heure + 1 minute. 
+Donne la date + 1jour. 
 
 
 \begin{DoxyParams}{Parameters}
