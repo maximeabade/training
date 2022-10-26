@@ -31,18 +31,40 @@ int SaisieNombre(){
 }
 
 
+
+/*!
+    *@fn SaisieEntiers
+    *@brief Saisie de deux entiers
+    *@param NULL
+    *@version 1.0
+    *@date 26/10/2022
+    *@return 1 si tout s'est bien passé
+*/
+int SaisieEntiers(){
+    int a;
+    int b;
+    printf("Saisir un premier nombre : ");
+    scanf("%d", &a);
+    printf("Saisir un deuxième nombre : ");
+    scanf("%d", &b);
+    printf("Vous avez saisi les nombres %d et %d\n", a, b);
+    return 1;
+}
+
+
+
+
 /*!
     *@fn SaisieDonnees
-    *@brief Saisie de données personnelles
+    *@brief Saisie de données personnelles d'une personne
     *@param NULL
     *@version 1.0
     *@date 24/10/2022
-    *@return 0 si tout s'est bien passé
+    *@return 1 si tout s'est bien passé
 */
 int SaisieDonnees(){
     int jour;
-    int numero_mois;
-    char* mois;
+    char mois[20];
     int annee;
     char nom[29];
     char prenom[29];
@@ -51,50 +73,9 @@ int SaisieDonnees(){
     printf("Saisir votre prenom : ");
     scanf("%s", prenom);
     printf("Saisir votre date de naissance (format JJ mois AAAA): ");
-    scanf("%d %d %d", &jour, &numero_mois, &annee);
+    scanf("%d %s %d", &jour, mois, &annee);
     printf("Vous avez saisi le nom %s\n", nom);
     printf("Vous avez saisi le prenom %s\n", prenom);
-    switch(numero_mois){
-        case 1:
-            mois = "Janvier";
-            break;
-        case 2:
-            mois = "Fevrier";
-            break;
-        case 3: 
-            mois = "Mars";
-            break;
-        case 4:
-            mois = "Avril";
-            break;
-        case 5:
-            mois = "Mai";
-            break;
-        case 6:
-            mois = "Juin";
-            break;
-        case 7:
-            mois = "Juillet";
-            break;
-        case 8:
-            mois = "Aout";
-            break;
-        case 9:
-            mois = "Septembre";
-            break;
-        case 10:   
-            mois = "Octobre";
-            break;
-        case 11:
-            mois = "Novembre";
-            break;
-        case 12:    
-            mois = "Decembre";
-            break;
-        default:
-            printf("Erreur de saisie du mois");
-            break;
-        }
     printf("Vous avez saisi la date de naissance %d %s %d\n", jour, mois, annee);
     return(0);
 }
@@ -105,20 +86,23 @@ int SaisieDonnees(){
     *@param NULL
     *@version 1.0
     *@date 24/10/2022
-    *@return NULL car procédure
+    *@return 1 si tout s'est bien passé, 0 sinon
 */
-void DiviserEntiers(){
+int DiviserEntiers(){
     int a;
     int b;
+    int retour;
+    retour = 0;
     printf("Saisir le numérateur et le dénominateur\n");
     scanf("%d %d", &a, &b);
     if(b == 0){
-        printf("Erreur : division par 0\ndivision impossible\n");
-        
+        printf("Erreur : division par 0\ndivision impossible\n");        
     }
     else{
         printf("%d / %d = %d\n", a, b, a/b);
+        retour = 1;
     }
+    return retour;
 }
 
 
@@ -129,9 +113,9 @@ void DiviserEntiers(){
     *@param NULL
     *@version 1.0
     *@date 24/10/2022
-    *@return NULL car procédure
+    *@return 1 si tout s'est bien passé
 */
-void SigneProduit(){
+int SigneProduit(){
     int a;
     int b;
     printf("Saisir le premier nombre\n");
@@ -144,6 +128,7 @@ void SigneProduit(){
     else{
         printf("Le produit est positif\n");
     }
+    return(1);
 }
 
 
@@ -153,7 +138,7 @@ void SigneProduit(){
     *@param NULL
     *@version 1.0
     *@date 24/10/2022
-    *@return NULL car procédure
+    *@return 1 si tout s'est bien passé
 */
 void Prediction(){
     int heures;
@@ -174,6 +159,7 @@ void Prediction(){
     else{
         printf("Erreur : heures et minutes incorrectes\n");
     }
+    return(1);
 }
 
 
@@ -183,7 +169,7 @@ void Prediction(){
     *@param NULL
     *@version 1.0
     *@date 24/10/2022
-    *@return NULL
+    *@return 1 si tout s'est bien passé
 */
 void Rebours(){
     int i;
@@ -194,6 +180,7 @@ void Rebours(){
         printf("%d\n", i);
         //sleep(1);
     }
+    return 1;
 }
 
 
@@ -203,7 +190,7 @@ void Rebours(){
     *@param NULL
     *@version 1.0
     *@date 24/10/2022
-    *@return NULL
+    *@return 1 si tout s'est bien passé
 */
 void Rebours2(){
     int i;
@@ -214,6 +201,7 @@ void Rebours2(){
         printf("%d\n", n-i);
         //sleep(1);
     }
+    return 1;
 }
 
 
@@ -225,37 +213,40 @@ void Rebours2(){
     *@param argv les arguments
     *@version 1.0
     *@date 24/10/2022
-    *@return 0 si tout s'est bien passé
+    *@return 1 si tout s'est bien passé
 */
 int main(int argc, char** argv) {
     int choix;
-    printf("Faites un choix:\n 1 - Saisie d un nombre\n 2 - Saisie de donnees personnelles\n 3 - Diviser 2 entiers\n 4 - Signe du produit\n 5 - Prediction\n 6 - Compte a rebours\n 7 - Compte a rebours 2\n");
+    printf("Faites un choix:\n 1 - Saisie d un nombre\n 2 - Saisie de deux entiers \n 3 - Saisie de donnees personnelles\n 4 - Diviser 2 entiers\n 5 - Signe du produit\n 6 - Prediction\n 7 - Compte a rebours\n 8 - Compte a rebours 2\n");
     scanf("%d", &choix);
     switch(choix){
         case 1:
             SaisieNombre();
             break;
         case 2:
-            SaisieDonnees();
+            SaisieEntiers();
             break;
         case 3:
-            DiviserEntiers();
+            SaisieDonnees();
             break;
         case 4:
-            SigneProduit();
+            DiviserEntiers();
             break;
         case 5:
-            Prediction();
+            SigneProduit();
             break;
         case 6:
-            Rebours();
+            Prediction();
             break;
         case 7:
+            Rebours();
+            break;
+        case 8:
             Rebours2();
             break;
         default:
             printf("Erreur : choix incorrect\n");
     }
-    return(0);
+    return(1);
 }
 

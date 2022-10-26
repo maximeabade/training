@@ -16,11 +16,13 @@ Include dependency graph for tp2.\+c\+:
 \mbox{\Hypertarget{tp2_8c_ab8ecf0ea019bda8030a41b497ec4654c}\label{tp2_8c_ab8ecf0ea019bda8030a41b497ec4654c}} 
 int {\bfseries Saisie\+Nombre} ()
 \item 
+int \mbox{\hyperlink{tp2_8c_a60df4bfc25f00b488c69910177f5899c}{Saisie\+Entiers}} ()
+\begin{DoxyCompactList}\small\item\em Saisie de deux entiers. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{tp2_8c_a674ccd53fa4c8797edf68f76b221d521}{Saisie\+Donnees}} ()
-\begin{DoxyCompactList}\small\item\em Saisie de données personnelles. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{tp2_8c_aa813e79a5885eecf2d0003b9ab6d5601}{Diviser\+Entiers}} ()
+\begin{DoxyCompactList}\small\item\em Saisie de données personnelles d\textquotesingle{}une personne. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{tp2_8c_aa813e79a5885eecf2d0003b9ab6d5601}{Diviser\+Entiers}} ()
 \begin{DoxyCompactList}\small\item\em Divise deux entiers. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{tp2_8c_ad5f61bb5a42d4c6c519af93bbefc061c}{Signe\+Produit}} ()
+int \mbox{\hyperlink{tp2_8c_ad5f61bb5a42d4c6c519af93bbefc061c}{Signe\+Produit}} ()
 \begin{DoxyCompactList}\small\item\em Dit si le produit de deux entiers est positif ou négatif. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{tp2_8c_a70840f97211401de3f953effbf4a3756}{Prediction}} ()
 \begin{DoxyCompactList}\small\item\em Donne l\textquotesingle{}heure + 1 minute. \end{DoxyCompactList}\item 
@@ -70,7 +72,7 @@ Divise deux entiers.
 24/10/2022 
 \end{DoxyDate}
 \begin{DoxyReturn}{Returns}
-NULL car procédure 
+1 si tout s\textquotesingle{}est bien passé, 0 sinon 
 \end{DoxyReturn}
 \mbox{\Hypertarget{tp2_8c_a70840f97211401de3f953effbf4a3756}\label{tp2_8c_a70840f97211401de3f953effbf4a3756}} 
 \index{tp2.c@{tp2.c}!Prediction@{Prediction}}
@@ -94,7 +96,7 @@ Donne l\textquotesingle{}heure + 1 minute.
 24/10/2022 
 \end{DoxyDate}
 \begin{DoxyReturn}{Returns}
-NULL car procédure 
+1 si tout s\textquotesingle{}est bien passé 
 \end{DoxyReturn}
 \mbox{\Hypertarget{tp2_8c_a5ba3ac35bd4d768585d1ecc1262af8c0}\label{tp2_8c_a5ba3ac35bd4d768585d1ecc1262af8c0}} 
 \index{tp2.c@{tp2.c}!Rebours@{Rebours}}
@@ -118,7 +120,7 @@ Compte à rebours.
 24/10/2022 
 \end{DoxyDate}
 \begin{DoxyReturn}{Returns}
-NULL 
+1 si tout s\textquotesingle{}est bien passé 
 \end{DoxyReturn}
 \mbox{\Hypertarget{tp2_8c_abeb0b59dc39836adae399947b3a22beb}\label{tp2_8c_abeb0b59dc39836adae399947b3a22beb}} 
 \index{tp2.c@{tp2.c}!Rebours2@{Rebours2}}
@@ -142,7 +144,7 @@ Compte à rebours.
 24/10/2022 
 \end{DoxyDate}
 \begin{DoxyReturn}{Returns}
-NULL 
+1 si tout s\textquotesingle{}est bien passé 
 \end{DoxyReturn}
 \mbox{\Hypertarget{tp2_8c_a674ccd53fa4c8797edf68f76b221d521}\label{tp2_8c_a674ccd53fa4c8797edf68f76b221d521}} 
 \index{tp2.c@{tp2.c}!SaisieDonnees@{SaisieDonnees}}
@@ -152,7 +154,7 @@ NULL
 
 
 
-Saisie de données personnelles. 
+Saisie de données personnelles d\textquotesingle{}une personne. 
 
 
 \begin{DoxyParams}{Parameters}
@@ -166,7 +168,31 @@ Saisie de données personnelles.
 24/10/2022 
 \end{DoxyDate}
 \begin{DoxyReturn}{Returns}
-0 si tout s\textquotesingle{}est bien passé 
+1 si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{tp2_8c_a60df4bfc25f00b488c69910177f5899c}\label{tp2_8c_a60df4bfc25f00b488c69910177f5899c}} 
+\index{tp2.c@{tp2.c}!SaisieEntiers@{SaisieEntiers}}
+\index{SaisieEntiers@{SaisieEntiers}!tp2.c@{tp2.c}}
+\doxysubsubsection{\texorpdfstring{SaisieEntiers()}{SaisieEntiers()}}
+{\footnotesize\ttfamily Saisie\+Entiers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Saisie de deux entiers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NULL} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+26/10/2022 
+\end{DoxyDate}
+\begin{DoxyReturn}{Returns}
+1 si tout s\textquotesingle{}est bien passé 
 \end{DoxyReturn}
 \mbox{\Hypertarget{tp2_8c_ad5f61bb5a42d4c6c519af93bbefc061c}\label{tp2_8c_ad5f61bb5a42d4c6c519af93bbefc061c}} 
 \index{tp2.c@{tp2.c}!SigneProduit@{SigneProduit}}
@@ -190,5 +216,5 @@ Dit si le produit de deux entiers est positif ou négatif.
 24/10/2022 
 \end{DoxyDate}
 \begin{DoxyReturn}{Returns}
-NULL car procédure 
+1 si tout s\textquotesingle{}est bien passé 
 \end{DoxyReturn}
