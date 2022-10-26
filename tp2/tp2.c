@@ -134,30 +134,47 @@ int SigneProduit(){
 
 /*!
     *@fn Prediction
-    *@brief Donne l'heure + 1 minute
+    *@brief Donne la date + 1jour
     *@param NULL
     *@version 1.0
     *@date 24/10/2022
     *@return 1 si tout s'est bien passé
 */
-void Prediction(){
-    int heures;
-    int minutes;
-    printf("Saisir le nombre d'heures\n");
-    scanf("%d", &heures);
-    printf("Saisir le nombre de minutes\n");
-    scanf("%d", &minutes);
-    if(heures>=0 && heures<=23 && minutes>=0 && minutes<59){
-        printf("Dans une minute, il sera %d heures et %d minutes\n", heures, minutes+1);
+int Prediction(){
+    int jour;
+    int mois;
+    int annee;
+    printf("Saisir une date (JJ MM AAAA)\n");
+    scanf("%d %d %d", &jour, &mois, &annee);
+    if(jour == 31 && mois == 12){
+        jour = 1;
+        mois = 1;
+        annee = annee + 1;
     }
-    else if(heures==23 && minutes==59){
-        printf("Dans une minute, il sera minuit\n");
+    else if(jour == 31 && (mois == 1 || mois == 3 || mois == 5 || mois == 7 || mois == 8 || mois == 10)){
+        jour = 1;
+        mois = mois + 1;
     }
-    else if(heures<23 && minutes == 59){
-        printf("Dans une minute, il sera %d heures et 0 minutes\n", heures+1);
+    else if(jour == 30 && (mois == 4 || mois == 6 || mois == 9 || mois == 11)){
+        jour = 1;
+        mois = mois + 1;
+    }
+    else if(jour == 28 && mois == 2 && annee%4 != 0){
+        jour = 1;
+        mois = mois + 1;
+    }
+    else if(jour == 29 && mois == 2 && annee%4 == 0){
+        jour = 1;
+        mois = mois + 1;
     }
     else{
-        printf("Erreur : heures et minutes incorrectes\n");
+        jour = jour + 1;
+    }
+    if(jour > 31 || mois > 12){
+        printf("Erreur : date invalide\n");
+    }
+    else{
+        printf("La date du lendemain est %d %d %d\n", jour, mois, annee);
     }
     return(1);
 }
@@ -171,7 +188,7 @@ void Prediction(){
     *@date 24/10/2022
     *@return 1 si tout s'est bien passé
 */
-void Rebours(){
+int Rebours(){
     int i;
     int n;
     printf("Saisir le nombre de secondes\n");
@@ -192,7 +209,7 @@ void Rebours(){
     *@date 24/10/2022
     *@return 1 si tout s'est bien passé
 */
-void Rebours2(){
+int Rebours2(){
     int i;
     int n;
     printf("Saisir le nombre de secondes\n");
