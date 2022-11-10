@@ -1,0 +1,220 @@
+\hypertarget{tp2_8c}{}\doxysection{tp2.\+c File Reference}
+\label{tp2_8c}\index{tp2.c@{tp2.c}}
+
+
+Operations élémentaires.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+Include dependency graph for tp2.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{tp2_8c_ab8ecf0ea019bda8030a41b497ec4654c}\label{tp2_8c_ab8ecf0ea019bda8030a41b497ec4654c}} 
+int {\bfseries Saisie\+Nombre} ()
+\item 
+int \mbox{\hyperlink{tp2_8c_a60df4bfc25f00b488c69910177f5899c}{Saisie\+Entiers}} ()
+\begin{DoxyCompactList}\small\item\em Saisie de deux entiers. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{tp2_8c_a674ccd53fa4c8797edf68f76b221d521}{Saisie\+Donnees}} ()
+\begin{DoxyCompactList}\small\item\em Saisie de données personnelles d\textquotesingle{}une personne. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{tp2_8c_aa813e79a5885eecf2d0003b9ab6d5601}{Diviser\+Entiers}} ()
+\begin{DoxyCompactList}\small\item\em Divise deux entiers. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{tp2_8c_ad5f61bb5a42d4c6c519af93bbefc061c}{Signe\+Produit}} ()
+\begin{DoxyCompactList}\small\item\em Dit si le produit de deux entiers est positif ou négatif. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{tp2_8c_a70840f97211401de3f953effbf4a3756}{Prediction}} ()
+\begin{DoxyCompactList}\small\item\em Donne la date + 1jour. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{tp2_8c_a5ba3ac35bd4d768585d1ecc1262af8c0}{Rebours}} ()
+\begin{DoxyCompactList}\small\item\em Compte à rebours. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{tp2_8c_abeb0b59dc39836adae399947b3a22beb}{Rebours2}} ()
+\begin{DoxyCompactList}\small\item\em Compte à rebours. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{tp2_8c_a3c04138a5bfe5d72780bb7e82a18e627}\label{tp2_8c_a3c04138a5bfe5d72780bb7e82a18e627}} 
+int {\bfseries main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Operations élémentaires. 
+
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+Maxime ABADE \href{mailto:abademaxim@cy-tech.fr}{\texttt{ abademaxim@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+24/10/2022 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{tp2_8c_aa813e79a5885eecf2d0003b9ab6d5601}\label{tp2_8c_aa813e79a5885eecf2d0003b9ab6d5601}} 
+\index{tp2.c@{tp2.c}!DiviserEntiers@{DiviserEntiers}}
+\index{DiviserEntiers@{DiviserEntiers}!tp2.c@{tp2.c}}
+\doxysubsubsection{\texorpdfstring{DiviserEntiers()}{DiviserEntiers()}}
+{\footnotesize\ttfamily Diviser\+Entiers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Divise deux entiers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NULL} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+24/10/2022 
+\end{DoxyDate}
+\begin{DoxyReturn}{Returns}
+1 si tout s\textquotesingle{}est bien passé, 0 sinon 
+\end{DoxyReturn}
+\mbox{\Hypertarget{tp2_8c_a70840f97211401de3f953effbf4a3756}\label{tp2_8c_a70840f97211401de3f953effbf4a3756}} 
+\index{tp2.c@{tp2.c}!Prediction@{Prediction}}
+\index{Prediction@{Prediction}!tp2.c@{tp2.c}}
+\doxysubsubsection{\texorpdfstring{Prediction()}{Prediction()}}
+{\footnotesize\ttfamily Prediction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Donne la date + 1jour. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NULL} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+24/10/2022 
+\end{DoxyDate}
+\begin{DoxyReturn}{Returns}
+1 si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{tp2_8c_a5ba3ac35bd4d768585d1ecc1262af8c0}\label{tp2_8c_a5ba3ac35bd4d768585d1ecc1262af8c0}} 
+\index{tp2.c@{tp2.c}!Rebours@{Rebours}}
+\index{Rebours@{Rebours}!tp2.c@{tp2.c}}
+\doxysubsubsection{\texorpdfstring{Rebours()}{Rebours()}}
+{\footnotesize\ttfamily Rebours (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Compte à rebours. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NULL} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+24/10/2022 
+\end{DoxyDate}
+\begin{DoxyReturn}{Returns}
+1 si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{tp2_8c_abeb0b59dc39836adae399947b3a22beb}\label{tp2_8c_abeb0b59dc39836adae399947b3a22beb}} 
+\index{tp2.c@{tp2.c}!Rebours2@{Rebours2}}
+\index{Rebours2@{Rebours2}!tp2.c@{tp2.c}}
+\doxysubsubsection{\texorpdfstring{Rebours2()}{Rebours2()}}
+{\footnotesize\ttfamily Rebours2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Compte à rebours. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NULL} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+24/10/2022 
+\end{DoxyDate}
+\begin{DoxyReturn}{Returns}
+1 si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{tp2_8c_a674ccd53fa4c8797edf68f76b221d521}\label{tp2_8c_a674ccd53fa4c8797edf68f76b221d521}} 
+\index{tp2.c@{tp2.c}!SaisieDonnees@{SaisieDonnees}}
+\index{SaisieDonnees@{SaisieDonnees}!tp2.c@{tp2.c}}
+\doxysubsubsection{\texorpdfstring{SaisieDonnees()}{SaisieDonnees()}}
+{\footnotesize\ttfamily Saisie\+Donnees (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Saisie de données personnelles d\textquotesingle{}une personne. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NULL} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+24/10/2022 
+\end{DoxyDate}
+\begin{DoxyReturn}{Returns}
+1 si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{tp2_8c_a60df4bfc25f00b488c69910177f5899c}\label{tp2_8c_a60df4bfc25f00b488c69910177f5899c}} 
+\index{tp2.c@{tp2.c}!SaisieEntiers@{SaisieEntiers}}
+\index{SaisieEntiers@{SaisieEntiers}!tp2.c@{tp2.c}}
+\doxysubsubsection{\texorpdfstring{SaisieEntiers()}{SaisieEntiers()}}
+{\footnotesize\ttfamily Saisie\+Entiers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Saisie de deux entiers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NULL} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+26/10/2022 
+\end{DoxyDate}
+\begin{DoxyReturn}{Returns}
+1 si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{tp2_8c_ad5f61bb5a42d4c6c519af93bbefc061c}\label{tp2_8c_ad5f61bb5a42d4c6c519af93bbefc061c}} 
+\index{tp2.c@{tp2.c}!SigneProduit@{SigneProduit}}
+\index{SigneProduit@{SigneProduit}!tp2.c@{tp2.c}}
+\doxysubsubsection{\texorpdfstring{SigneProduit()}{SigneProduit()}}
+{\footnotesize\ttfamily Signe\+Produit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Dit si le produit de deux entiers est positif ou négatif. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NULL} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+24/10/2022 
+\end{DoxyDate}
+\begin{DoxyReturn}{Returns}
+1 si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
