@@ -4,13 +4,13 @@
     *@author Maxime ABADE <abademaxim@cy-tech.fr>
     *@date 15/11/2022
     *@brief fichier header contenant les fonctions permettant le calcul d'une valeur approchée de pi (~3.14)
-*/
+*/ 
 
 
 
 
 /*!
-    *@fn pi_aire
+    *@fn pi_aire 
     *@brief approximation de l aire d un cercle par quadrillage
     *@param n le nombre de points tirés aléatoirement
     *@version 1.0
