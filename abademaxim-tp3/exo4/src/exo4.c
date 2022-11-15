@@ -80,7 +80,7 @@ int triangle(int n){
   int k;
   int l;
   for (i=0; i<n; i++){
-    for (j=0; j<n-i-1; j++){
+    for (j=0; j<n-i-1; j++){  
       printf(" ");
     }
     for (l=0; l<i+1; l++){
