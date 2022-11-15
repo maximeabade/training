@@ -1,4 +1,14 @@
 /*!
+    *@file sqrt2.h
+    *@version 1.0
+    *@author Maxime ABADE <abademaxim@cy-tech.fr>
+    *@date 15/11/2022
+    *@brief fichier header contenant les fonctions permettant le calcul d'une valeur approchée de racine de deux (~1.41)
+*/ 
+
+
+
+/*!
     *@fn sqrt2_newton
     *@brief Calcul de sqrt(2) par la méthode de Newton
     *@param n le nombre d'itération du calcul

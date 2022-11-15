@@ -1,0 +1,30 @@
+\hypertarget{main_8c}{}\doxysection{main.\+c File Reference}
+\label{main_8c}\index{main.c@{main.c}}
+
+
+fichier principal appelant les fonctions permettant de calculer au choix pi ou racine de 2  
+
+
+{\ttfamily \#include \char`\"{}main.\+h\char`\"{}}\newline
+Include dependency graph for main.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8c_a0ddf1224851353fc92bfbff6f499fa97}\label{main_8c_a0ddf1224851353fc92bfbff6f499fa97}} 
+int {\bfseries main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+fichier principal appelant les fonctions permettant de calculer au choix pi ou racine de 2 
+
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+Maxime ABADE \href{mailto:abademaxim@cy-tech.fr}{\texttt{ abademaxim@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/11/2022 
+\end{DoxyDate}
