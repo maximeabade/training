@@ -1,10 +1,22 @@
-#include <math.h>
-
-/*
-1: approximation de l aire d un cercle par quadrillage
-Ici n correspond aux nombre de points a tirer aléatoirement sur le cerlce et de coordonnees (x,y)
+/*!
+    *@file pi.h
+    *@version 1.0
+    *@author Maxime ABADE <abademaxim@cy-tech.fr>
+    *@date 15/11/2022
+    *@brief fichier header contenant les fonctions permettant le calcul d'une valeur approchée de pi (~3.14)
 */
 
+
+
+
+/*!
+    *@fn pi_aire
+    *@brief approximation de l aire d un cercle par quadrillage
+    *@param n le nombre de points tirés aléatoirement
+    *@version 1.0
+    *@date 15/11/2022
+    *@return une valeur approchée de pi si tout s'est bien passé
+*/
 float pi_aire(int n){
     float aire; //aire
     float x; //abscisse
@@ -25,11 +37,15 @@ float pi_aire(int n){
 }
 
 
-/*
-2: Methode Madhava de Sangamagrama 
+
+/*!
+    *@fn pi_madhava
+    *@brief Calcul de pi par la méthode de Madhava de Sangamagrama
+    *@param n le nombre d'itération du calcul
+    *@version 1.0
+    *@date 15/11/2022
+    *@return une valeur approchée de pi si tout s'est bien passé
 */
-
-
 float pi_madhava(int n){
     float s;
     s = 1;
@@ -49,8 +65,13 @@ float pi_madhava(int n){
     return(4*s);
 }
 
-/*
-3: Methode de John Wallis
+/*!
+    *@fn pi_wallis
+    *@brief Calcul de pi par la méthode de John Wallis
+    *@param n le nombre d'itération du calcul
+    *@version 1.0
+    *@date 15/11/2022
+    *@return une valeur approchée de pi si tout s'est bien passé
 */
 float pi_wallis(int n){
     float prod;
@@ -61,7 +82,16 @@ float pi_wallis(int n){
     return(2*prod);
 }
 
-void choix_pi(){
+
+/*!
+    *@fn choix_pi
+    *@brief Permet de choisir la méthode selon laquelle calculer pi
+    *@param NULL
+    *@version 1.0
+    *@date 15/11/2022
+    *@return NULL
+*/
+void choix_pi(void){
     int choix;
     int n;
     printf("choisissez la methode de calcul de pi:\n");

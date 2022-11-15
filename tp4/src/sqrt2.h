@@ -1,7 +1,11 @@
-/*
-Approximation de racine de 2 par Newton
+/*!
+    *@fn sqrt2_newton
+    *@brief Calcul de sqrt(2) par la méthode de Newton
+    *@param n le nombre d'itération du calcul
+    *@version 1.0
+    *@date 15/11/2022
+    *@return une valeur approchée de sqrt(2) si tout s'est bien passé
 */
-
 float sqrt2_newton(int n){
     float u0;
     u0=1.0;
@@ -11,10 +15,14 @@ float sqrt2_newton(int n){
     return u0;
 }
 
-/*
-Approximation par methode de Edmund Halley
+/*!
+    *@fn sqrt2_edmund
+    *@brief Calcul de sqrt(2) par la méthode de Edmund Halley
+    *@param n le nombre d'itération du calcul
+    *@version 1.0
+    *@date 15/11/2022
+    *@return une valeur approchée de sqrt(2) si tout s'est bien passé
 */
-
 float sqrt2_edmund(int n){
     float x0;
     x0=1;
@@ -24,10 +32,14 @@ float sqrt2_edmund(int n){
     return x0;
 }
 
-/*
-Méthode de Théon de Smyrne
+/*!
+    *@fn psqrt2_theon
+    *@brief Calcul de sqrt(2) par la méthode de Théon de Smyrne
+    *@param n le nombre d'itération du calcul
+    *@version 1.0
+    *@date 15/11/2022
+    *@return une valeur approchée de sqrt(2) si tout s'est bien passé
 */
-
 float sqrt2_theon(int n){
     float pn;
     float qn;
@@ -44,8 +56,15 @@ float sqrt2_theon(int n){
 
 
 
-
-void choix_sqrt2(){
+/*!
+    *@fn choix_sqrt2
+    *@brief Permet de choisir la méthode selon laquelle calculer sqrt(2)
+    *@param NULL
+    *@version 1.0
+    *@date 15/11/2022
+    *@return NULL
+*/
+void choix_sqrt2(void){
     int choix;
     int n;
     printf("choisissez la methode de calcul de sqrt(2):\n");
