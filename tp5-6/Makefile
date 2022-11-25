@@ -1,6 +1,6 @@
-#Fichier Makefile
-
-CC = gcc -Wall
+﻿CC = gcc
+CFLAGS = -Wall
+LDFLAGS = -lm
 RM = rm -f
 srcdir = src/
 bindir = bin/
@@ -9,25 +9,43 @@ savedir = save/
 SRC = $(wildcard $(srcdir)*.c)
 HEAD = $(wildcard *.h)
 OBJ = $(subst $(srcdir), $(bindir), $(SRC:.c=.o))
-PROG = tp6
+EXEC = TP5
 
-all : $(PROG)
+#Compilation
+all : $(EXEC)
 
-$(PROG) : $(OBJ) #Compilation du programme
-	$(CC) $^ -o $@
+#Compile le programme
+$(EXEC) : $(OBJ)
+	$(CC) $(CFLAGS) $^ $(LDFLAGS) -o $@
+	mv $(EXEC) $(bindir)
 
-./bin/%.o : ./src/%.c #Compilation des objets
-	$(CC) -c $^ -o $@
+#Compile les objetss
+./bin/%.o : ./src/%.c 
+	$(CC) $(CFLAGS) -c $^ -o $@
+	
+#Suppression les objets et la documentation
+.PHONY : clean
+clean : 
+	$(RM) $(OBJ)
+	rm -rf doc/html doc/latex
 
-.PHONY : clean #Regle de contournement de fichier appele clean
+#Création de la documentation Doxygen
+.PHONY : doc 
+doc : 
+	doxygen -g Doxyfile && doxygen Doxyfile
+	mv Doxyfile html latex $(docdir)
 
-.PHONY : doc #Regle de contournement de fichier appele doc
+#Ouverture de la docuementation Doxygen
+.PHONY : doxy
+doxy :
+	firefox doc/html/index.html
 
-clean : #Suppression des objets et le la documentation
-	$(RM) $(OBJ) sauvegarde.txt
-	$(shell rm -rf doc/html doc/latex)
+#Sauvegarde des sources
+.PHONY : save
+save : 
+	cp -r src/* $(savedir)
 
-
-doc : #Generation de la documentation Doxygen
-	$(shell doxygen Doxyfile)
-
+#Utilisation de la dernière sauvegarde
+.PHONY : restore
+restore :
+	cp -r save/* $(srcdir)
