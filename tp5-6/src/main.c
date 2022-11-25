@@ -8,4 +8,4 @@ int main(){
     }
     printf(estTraversable(tableau));
     return 0;
-}
+}  

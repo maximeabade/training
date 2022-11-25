@@ -17,8 +17,9 @@ void saisirTableau(int n){
 }
 
 
-void inversion(){
-    int tableau = saisirTableau(int n);
+void inversion(void){
+    int n;
+    int* tableau = saisirTableau(n);
     int i;
     int j;
     int tmp;
@@ -51,7 +52,7 @@ void somme_tableaux(int tableau1[n],int tableau2[n]){
 
 
 
-int estTraversable(int tableau[20]){
+int estTraversable(int* tableau[20]){
     int i;
     int j;
     int retour;
