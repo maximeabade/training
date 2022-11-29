@@ -1,12 +1,9 @@
 /*!
 * \file main.c
-*
 * \brief le code de la fonction main
-*
-* \author 
-* \version 0.1
-* 
-* \date 29 novembre 2021
+* \author Maxime ABADE <abademaxim@cy-tech.fr>
+* \version 1.0
+* \date 29/11/2022
 */
 
 /*inclusion des entêtes de librairie*/

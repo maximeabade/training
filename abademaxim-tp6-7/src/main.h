@@ -2,11 +2,9 @@
 * \file main.h
 *
 * \brief le fichier en-tête de la fonction main
-*
-* \author 
-* \version 0.1
-* 
-* \date 29 novembre 2021
+* \author Maxime ABADE <abademaxim@cy-tech.fr>
+* \version 1.0 
+* \date 29 novembre 2022
 */
 #ifndef MAIN_H
 #define MAIN_H
@@ -25,12 +23,10 @@
 *
 * \param argc nombre d'arguments
 * \param argv valeur des arguments
-* 
 * \return 0 si tout s'est bien passé
-* 
-* \author 
-* \version 0.1
-* \date 29 novembre 2021
+* \author Maxime ABADE <abademaxim@cy-tech.fr>
+* \version 1.0
+* \date 29 novembre 2022
 */
 int main(int argc, char *argv[]);
 

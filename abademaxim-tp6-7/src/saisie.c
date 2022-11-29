@@ -1,9 +1,9 @@
 /*!
-\file saisie.c
-\brief le code des fontions de saisie
-\author 
-\version 0.1
-\date 29 novembre 2021
+ * \file saisie.c
+ * \brief le code des fontions de saisie
+ * \author Maxime ABADE <abademaxim@cy-tech.fr>
+ * \version 1.0
+ * \date 29/11/2022
 */
 
 /*inclusion des entêtes de librairie*/

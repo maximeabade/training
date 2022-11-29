@@ -1,9 +1,9 @@
 /*!
-\file tab1D.c
-\brief le code des fonctions relatives à l'exercice 2
-\author 
-\version 0.1
-\date 29 novembre 2021
+ * \file tab2D.c
+ * \brief le code des fonctions relatives à l'exercice 2
+ * \author Maxime ABADE <abademaxim@cy-tech.fr>
+ * \version 1.0
+ * \date 29/11/2022
 */
 
 /*inclusion des entêtes de librairie*/
