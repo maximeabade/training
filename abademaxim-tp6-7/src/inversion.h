@@ -1,28 +1,85 @@
 /*!
-    *@file inversion.h
-    *@version 1.0
-    *@author Maxime ABADE <abademaxim@cy-tech.fr>
-    *@date 15/11/2022
-    *@brief fichier header contenant les fonctions permettant le calcul d'une valeur approchée de racine de deux (~1.41)
+\file tab1D.h
+\brief le fichier en-tête des fonctions relatives à l'exercice 1
+\author Justine Ribas <ribasjusti@cy-tech.fr>
+\version 0.1
+\date 29 novembre 2021
 */
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <math.h>
-#define TAILLE 20
+
+#ifndef TAB1D_H
+#define TAB1D_H
+
+/* inclusions des entêtes de librairie */
+#include "saisie.h"
+
+/* définition des constantes */
+#define M 6
 
 
 
+/* Déclaration des fonctions */
+
+/*! \fn void saisirTab(int tint_tab[M])
+ *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \version 0.1
+ *  \date 29 novembre 2021
+ *
+ *  \brief permet de saisir les valeurs d'un tableau d'entiers à M cases
+ *
+ *  \param tint_tab tableau initialisé pour lequel on va saisir des valeurs
+ * 
+ *  \remarks 
+ */
+void saisirTab(int tint_tab[M]);
 
 
-/*!
-    *@fn inversion
-    *@brief inversion d'un tableau de réels (1er devient dernier etc)
-    *@param n le nombre d'itération du calcul
-    *@version 1.0
-    *@date 29/11/2022
-    *@return le tableau si tout s'est bien passé
-*/
-float ttinversion
+/*! \fn void afficherTab(int tint_tab[M])
+ *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \version 0.1
+ *  \date 29 novembre 2021
+ *
+ *  \brief permet d'afficher les valeurs d'un tableau d'entiers à M cases
+ *
+ *  \param tint_tab tableau initialisé pour lequel on va afficher toutes les valeurs
+ * 
+ *  \remarks 
+ */
+void afficherTab(int tint_tab[M]);
+
+
+
+/*! \fn void inversion(void)
+ *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \version 0.1
+ *  \date 29 novembre 2021
+ *
+ *  \brief permet d'inverser les cases d'un tableau d'entiers à M cases
+ * 
+ *  \remarks 
+ */
+void inversion(void);
+
+
+/*! \fn void sommer(void)
+ *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \version 0.1
+ *  \date 29 novembre 2021
+ *
+ *  \brief permet de sommer les cases de deux tableaux d'entiers à M cases
+ * 
+ *  \remarks 
+ */
+void sommer(void);
+
+/*! \fn void traversable(void)
+ *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \version 0.1
+ *  \date 29 novembre 2021
+ *
+ *  \brief permet de vérifier si un tableau d'entier à M cases est traversable
+ * 
+ *  \remarks 
+ */
+void traversable(void);
+
+#endif
