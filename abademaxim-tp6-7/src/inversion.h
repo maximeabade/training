@@ -11,6 +11,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <math.h>
+#define TAILLE 20
 
 
 
@@ -18,10 +19,10 @@
 
 /*!
     *@fn inversion
-    *@brief inversion d'un tableau (1er devient dernier etc)
+    *@brief inversion d'un tableau de réels (1er devient dernier etc)
     *@param n le nombre d'itération du calcul
     *@version 1.0
     *@date 29/11/2022
     *@return le tableau si tout s'est bien passé
 */
-
+float ttinversion
