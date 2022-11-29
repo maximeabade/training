@@ -1,7 +1,7 @@
 /*!
 \file tab2D.h
 \brief le fichier en-tête des fonctions relatives à l'exercice 2
-\author Justine Ribas <ribasjusti@cy-tech.fr>
+\author 
 \version 0.1
 \date 29 novembre 2021
 */
@@ -20,7 +20,7 @@
 /* Déclaration des fonctions */
 
 /*! \fn void initPlateau(int ttint_plateau[N][N])
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *
@@ -34,7 +34,7 @@ void initPlateau(int ttint_plateau[N][N]);
 
 
 /*! \fn void affichePlateau(int ttint_plateau[N][N])
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *
@@ -48,7 +48,7 @@ void affichePlateau(int ttint_plateau[N][N]);
 
 
 /*! \fn void afficheDelimitation(void)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 01 décembre 2021
  *
@@ -60,7 +60,7 @@ void afficheDelimitation(void);
 
 
 /*! \fn int jouer(int ttint_plateau[N][N], int int_joueur, int int_colonne)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *
@@ -78,7 +78,7 @@ int jouer(int ttint_plateau[N][N], int int_joueur, int int_colonne);
 
 
 /*! \fn int aGagnerColonne(int ttint_plateau[N][N], int int_colonne)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *
@@ -95,7 +95,7 @@ int aGagnerColonne(int ttint_plateau[N][N], int int_colonne);
 
 
 /*! \fn int aGagnerLigne(int ttint_plateau[N][N], int int_ligne)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *
@@ -112,7 +112,7 @@ int aGagnerLigne(int ttint_plateau[N][N], int int_ligne);
 
 
 /*! \fn int aGagnerDiagAsc(int ttint_plateau[N][N], int int_ligne)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 30 novembre 2021
  *
@@ -129,7 +129,7 @@ int aGagnerDiagAsc(int ttint_plateau[N][N], int int_ligne);
 
 
 /*! \fn int aGagnerDiagDesc(int ttint_plateau[N][N], int int_ligne)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 30 novembre 2021
  *
@@ -146,7 +146,7 @@ int aGagnerDiagDesc(int ttint_plateau[N][N], int int_ligne);
 
 
 /*! \fn int matchNul(int ttint_plateau[N][N])
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 01 décembre 2021
  *
@@ -162,7 +162,7 @@ int matchNul(int ttint_plateau[N][N]);
 
 
 /*! \fn int aGagner(int ttint_plateau[N][N])
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 30 novembre 2021
  *
@@ -178,7 +178,7 @@ int aGagner(int ttint_plateau[N][N]);
 
 
 /*! \fn int numJoueur(int int_nbTours)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 01 décembre 2021
  *
@@ -194,7 +194,7 @@ int numJoueur(int int_nbTours);
 
 
 /*! \fn void saisieColonne(int int_joueur, int ttint_plateau[N][N])
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 01 décembre 2021
  *
@@ -209,7 +209,7 @@ void saisieColonne(int int_joueur, int ttint_plateau[N][N]);
 
 
 /*! \fn void gravite(int ttint_plateau[N][N])
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 01 décembre 2021
  *
@@ -223,7 +223,7 @@ void gravite(int ttint_plateau[N][N]);
 
 
 /*! \fn void tournerPlateau(int ttint_plateau[N][N])
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 01 décembre 2021
  *
@@ -237,7 +237,7 @@ void tournerPlateau(int ttint_plateau[N][N]);
 
 
 /*! \fn void tourDeJeu(int ttint_plateau[N][N], int int_nbRotations)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *
@@ -252,7 +252,7 @@ void tourDeJeu(int ttint_plateau[N][N], int int_nbRotations);
 
 
 /*! \fn void deroulePartie(void)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *

@@ -1,7 +1,7 @@
 /*!
 \file saisie.h
 \brief le fichier en-tête des fonctions de saisie
-\author Justine Ribas <ribasjusti@cy-tech.fr>
+\author 
 \version 0.1
 \date 29 novembre 2021
 */
@@ -18,7 +18,7 @@
 /* Déclaration des fonctions */
 
 /*! \fn void viderBuffer(void)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 11 décembre 2019
  *
@@ -30,7 +30,7 @@ void viderBuffer(void);
 
 
 /*! \fn int saisirEntier(void)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 11 décembre 2019
  *

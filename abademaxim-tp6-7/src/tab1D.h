@@ -1,10 +1,4 @@
-/*!
-\file tab1D.h
-\brief le fichier en-tête des fonctions relatives à l'exercice 1
-\author Justine Ribas <ribasjusti@cy-tech.fr>
-\version 0.1
-\date 29 novembre 2021
-*/
+
 
 #ifndef TAB1D_H
 #define TAB1D_H
@@ -20,9 +14,9 @@
 /* Déclaration des fonctions */
 
 /*! \fn void saisirTab(int tint_tab[M])
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
- *  \date 29 novembre 2021
+ *  \date 29 novembre 2022
  *
  *  \brief permet de saisir les valeurs d'un tableau d'entiers à M cases
  *
@@ -34,7 +28,7 @@ void saisirTab(int tint_tab[M]);
 
 
 /*! \fn void afficherTab(int tint_tab[M])
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *
@@ -49,7 +43,7 @@ void afficherTab(int tint_tab[M]);
 
 
 /*! \fn void inversion(void)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *
@@ -61,7 +55,7 @@ void inversion(void);
 
 
 /*! \fn void sommer(void)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *
@@ -72,7 +66,7 @@ void inversion(void);
 void sommer(void);
 
 /*! \fn void traversable(void)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
+ *  \author 
  *  \version 0.1
  *  \date 29 novembre 2021
  *

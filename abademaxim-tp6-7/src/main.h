@@ -3,7 +3,7 @@
 *
 * \brief le fichier en-tête de la fonction main
 *
-* \author Justine Ribas <ribasjusti@cy-tech.fr>
+* \author 
 * \version 0.1
 * 
 * \date 29 novembre 2021
@@ -28,7 +28,7 @@
 * 
 * \return 0 si tout s'est bien passé
 * 
-* \author Justine Ribas <ribasjusti@cy-tech.fr>
+* \author 
 * \version 0.1
 * \date 29 novembre 2021
 */

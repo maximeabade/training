@@ -3,7 +3,7 @@
 *
 * \brief le code de la fonction main
 *
-* \author Justine Ribas <ribasjusti@cy-tech.fr>
+* \author 
 * \version 0.1
 * 
 * \date 29 novembre 2021

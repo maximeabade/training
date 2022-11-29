@@ -1,7 +1,7 @@
 /*!
 \file saisie.c
 \brief le code des fontions de saisie
-\author Justine Ribas <ribasjusti@cy-tech.fr>
+\author 
 \version 0.1
 \date 29 novembre 2021
 */
