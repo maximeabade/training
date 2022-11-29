@@ -9,7 +9,7 @@ savedir = save/
 SRC = $(wildcard $(srcdir)*.c)
 HEAD = $(wildcard *.h)
 OBJ = $(subst $(srcdir), $(bindir), $(SRC:.c=.o))
-EXEC = TP5
+EXEC = TP6
 
 #Compilation
 all : $(EXEC)
@@ -17,7 +17,6 @@ all : $(EXEC)
 #Compile le programme
 $(EXEC) : $(OBJ)
 	$(CC) $(CFLAGS) $^ $(LDFLAGS) -o $@
-	mv $(EXEC) $(bindir)
 
 #Compile les objetss
 ./bin/%.o : ./src/%.c 
@@ -28,6 +27,8 @@ $(EXEC) : $(OBJ)
 clean : 
 	$(RM) $(OBJ)
 	rm -rf doc/html doc/latex
+	mv $(EXEC) $(bindir)
+
 
 #Création de la documentation Doxygen
 .PHONY : doc 
