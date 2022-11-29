@@ -1,12 +1,9 @@
 /*!
 * \file tri.c
-*
 * \brief le code des fonctions relatives aux tris
-*
-* \author Justine Ribas <ribasjusti@cy-tech.fr>
-* \version 0.1
-* 
-* \date 03 décembre 2021
+* \author Maxime ABADE <abademaxim@cy-tech.fr>
+* \version 1.0
+* \date 30/11/2022
 */
 
 /* Inclusion des entêtes de librairie*/
@@ -149,12 +146,12 @@ void triDenombrement(int* pint_tab, int int_n)
 
       if(pint_hist[int_j] > 0 ){
 
-        pint_tab[int_i] = int_j;
+        pint_tab[int_i] = int_j + int_min;
         pint_hist[int_j]--;
         int_i++;
 
       } else{
-
+ 
         int_j++;
         
       }

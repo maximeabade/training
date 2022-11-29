@@ -1,17 +1,14 @@
 /*!
 * \file main.c
-*
 * \brief le code de la fonction main
-*
-* \author Justine Ribas <ribasjusti@cy-tech.fr>
-* \version 0.1
-* 
-* \date 03 décembre 2021
+* \author Maxime ABADE <abademaxim@cy-tech.fr>
+* \version 1.0
+* \date 30/11/2022
 */
 
 /*inclusion des entêtes de librairie*/
 #include "main.h"
-
+ 
 
 /*code de la fonction main*/
 

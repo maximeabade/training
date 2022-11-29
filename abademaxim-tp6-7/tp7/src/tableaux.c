@@ -1,12 +1,9 @@
 /*!
  * \file tableaux.c
- *
- * \author Justine Ribas <ribasjusti@eisti.eu>
- * \version 0.1
- * \date 02 décembre 2021
- *
+ * \author Maxime ABADE <abadeamxim@cy-tech.fr>
+ * \version 1.0
+ * \date 30/11/2022
  * \brief code des fonctions relatives aux tableaux
- *
  */
 
 

@@ -15,5 +15,8 @@
   Pour générer la documentation Doxygen il faut exécuter la commande "make doc" à la racine du projet
   La documentation sera ainsi générée dans le dossier /doc et est accessible à partir du fichier /doc/html/index.html par exemple
 
+## Sauvegarde
+  Pour générer une sauvegarde du projet, il faut eécuter la ocmmande "make save" à la racine du projet
+
 ## Nettoyage du projet :
-  Pour effacer la documentation générée, les fichiers objets et la dernière sauvegarde il faut exécuter la commande "make clean" à la racine du projet
+  Pour effacer la documentation générée, les fichiers objets, l'exécutable et la dernière sauvegarde il faut exécuter la commande "make clean" à la racine du projet
