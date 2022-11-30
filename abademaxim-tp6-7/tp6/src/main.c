@@ -12,7 +12,7 @@
 
 /*code de la fonction main*/
 
-// fonction principale qui affaiche le menu
+// fonction principale qui affiche le menu
 int main(int argc, char *argv[])
 {
     //Déclaration des variables
