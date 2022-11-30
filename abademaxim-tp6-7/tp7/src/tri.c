@@ -135,7 +135,7 @@ void triDenombrement(int* pint_tab, int int_n)
     int_j = 0;
 
     // On cherche le min et le max du tableau
-    minMaxTablau(pint_tab, int_n, &int_min, &int_max);
+    minMaxTableau(pint_tab, int_n, &int_min, &int_max);
 
     // On crée l'historigramme
     pint_hist = creerTabEntier1D(int_max - int_min + 1);

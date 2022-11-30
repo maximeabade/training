@@ -79,7 +79,7 @@ int* copierSousTableau(int* pint_tab, int int_deb, int int_fin);
  *  \param int_min l'adresse du minimum
  *  \param int_max l'adresse du maximum
  */
-void minMaxTablau(int* pint_tab, int int_n, int* int_min, int* int_max);
+void minMaxTableau(int* tab, int int_n, int* int_min, int* int_max);
 
 
 #endif
