@@ -12,6 +12,7 @@ int main(int argc, char** argv) {
     switch (choix1) {
         case 1:
         printf("Choix entre lecture d'adresse directe ou avec un pointeur \n1 - Lecture directe \n2 - Lecture avec pointeur \n");
+        scanf("%d", &choix2);
         switch (choix2) {
             case 1:
                 printf("Vous avez choisi l'adressage direct\n");

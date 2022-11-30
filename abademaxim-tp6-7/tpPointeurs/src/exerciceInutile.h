@@ -1,4 +1,4 @@
-int exoInutile(void) {
+int exerciceInutile(void) {
     int i;
     int *p;
     i = 1;
