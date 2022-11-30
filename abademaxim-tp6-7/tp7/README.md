@@ -1,22 +1,32 @@
-# TD – Tableau dynamique
-
-## Arborescence du projet :
-- Dans /bin se trouvent les fichiers objets servant à la compilation
-- Dans /doc se trouve la documentation Doxygen
-- Dans /src se trouvent tous les fichiers .c et .h contenant le code source
+# TD – Opérations Élémentaires 
 
 ## Compilation :
-  Pour compiler le programme il faut exécuter la commande "make" à la racine du projet
+  Pour compiler le programme il faut exécuter la commande suivante à la racine du projet :
+  ```
+  make
+  ```
 
 ## Exécution :
-  Pour exécuter le programme il faut exécuter la commande "./TP7" à la racine du projet
+  Pour exécuter le programme il faut exécuter la commande suivante à la racine du projet :
+  ```
+  ./TP7
+  ``` 
 
 ## Documentation :
-  Pour générer la documentation Doxygen il faut exécuter la commande "make doc" à la racine du projet
-  La documentation sera ainsi générée dans le dossier /doc et est accessible à partir du fichier /doc/html/index.html par exemple
+  Pour générer la documentation Doxygen il faut exécuter la commande suivante à la racine du projet :
+  ```
+  make doc
+  ```
 
-## Sauvegarde
-  Pour générer une sauvegarde du projet, il faut eécuter la ocmmande "make save" à la racine du projet
+## Sauvegarde du projet :
+  Pour générer une sauvegarde des fichiers source, il faut exécuter la commande suivante à la racine du projet :
+  ```
+  make save
+  ```  
 
 ## Nettoyage du projet :
-  Pour effacer la documentation générée, les fichiers objets, l'exécutable et la dernière sauvegarde il faut exécuter la commande "make clean" à la racine du projet
+  Pour effacer la documentation générée, les fichiers objets, l'exécutable et la dernière sauvegarde il faut exécuter la commande suivante à la racine du projet :
+  ```
+  make clean
+  ```
+

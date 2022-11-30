@@ -7,7 +7,9 @@
   ```
 
 ## Exécution :
-  Pour exécuter le programme il faut exécuter la commande "./TP6" à la racine du projet
+  Pour exécuter le programme il faut exécuter la commande suivante à la racine du projet :
+  ```
+  ./TP6
   ``` 
 
 ## Documentation :
@@ -15,6 +17,12 @@
   ```
   make doc
   ```
+
+## Sauvegarde du projet :
+  Pour générer une sauvegarde des fichiers source, il faut exécuter la commande suivante à la racine du projet :
+  ```
+  make save
+  ```  
 
 ## Nettoyage du projet :
   Pour effacer la documentation générée, les fichiers objets, l'exécutable et la dernière sauvegarde il faut exécuter la commande suivante à la racine du projet :

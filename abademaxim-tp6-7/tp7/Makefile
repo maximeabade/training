@@ -28,6 +28,7 @@ clean :
 	$(RM) $(OBJ)
 	rm -rf doc/html doc/latex
 	mv $(EXEC) $(bindir)
+	rm save/*
 
 
 #Création de la documentation Doxygen
