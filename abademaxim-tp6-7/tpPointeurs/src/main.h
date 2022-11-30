@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <math.h>
+#include <time.h>
+#include <stdbool.h>
+#include <unistd.h>
+#include "lectureDirecte.h"
+#include "lecturePointeur.h"
+#include "exerciceInutile.h"
+#include "pointeurDePointeur.h"
+#include "unPeuMoinsFacile.h"
