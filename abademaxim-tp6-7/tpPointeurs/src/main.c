@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
     int choix1;
     int choix2;
     printf("Choisissez entre une lecture avec adressage direct (sans pointeur) et une lecture avec pointeur : \n");
-    printf("1 - lectures et adressages  \n2 - Exercice inutile  \n3 - Pointeur de pointeur    \n4 -   \n");
+    printf("1 - lectures et adressages  \n2 - Exercice inutile  \n3 - Pointeur de pointeur    \n4 - Exercice un peu moins facile  \n");
     scanf("%d", &choix1);
     switch (choix1) {
         case 1:
