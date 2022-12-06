@@ -3,10 +3,10 @@
 *
 * \brief le fichier en-tête des fonctions relatives aux méthodes de codage
 *
-* \author Justine Ribas <ribasjusti@cy-tech.fr>
-* \version 0.1
+* \author Maxime ABADE <abademaxim@cy-tech.fr>
+* \version 1.0
 * 
-* \date 06 décembre 2021
+* \date 06 décembre 2022
 */
 
 #ifndef CODE_H
@@ -23,9 +23,9 @@
 /* Déclaration des fonctions */
 
 /*! \fn void cesar(char *str_chaine)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
- *  \version 0.1
- *  \date 06 décembre 2021
+ *  \author Maxime ABADE <abademaxim@cy-tech.fr>
+ *  \version 1.0
+ *  \date 06 décembre 2022
  *
  *  \brief permet de coder une chaine de caractères avec la méthode de codage César
  *
@@ -37,9 +37,9 @@ void cesar(char *str_chaine);
 
 
 /*! \fn void vigenere(char *str_chaine)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
- *  \version 0.1
- *  \date 06 décembre 2021
+ *  \author Maxime ABADE <abademaxim@cy-tech.fr>
+ *  \version 1.0
+ *  \date 06 décembre 2022
  *
  *  \brief permet de coder une chaine de caractères avec la méthode de codage Vigenère
  *
@@ -51,9 +51,9 @@ void vigenere(char *str_chaine);
 
 
 /*! \fn int validiteCle(char *str_cle)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
- *  \version 0.1
- *  \date 06 décembre 2021
+ *  \author Maxime ABADE <abademaxim@cy-tech.fr>
+ *  \version 1.0
+ *  \date 06 décembre 2022
  *
  *  \brief permet de vérifier si une clé est valide, c'est à dire si elle ne contient que des lettres
  *
@@ -67,9 +67,9 @@ int validiteCle(char *str_cle);
 
 
 /*! \fn void scytale(char *str_chaine)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
- *  \version 0.1
- *  \date 06 décembre 2021
+ *  \author Maxime ABADE <abademaxim@cy-tech.fr>
+ *  \version 1.0
+ *  \date 06 décembre 2022
  *
  *  \brief permet de coder une chaine de caractères avec la méthode de codage Scytale
  *
@@ -81,9 +81,9 @@ void scytale(char *str_chaine);
 
 
 /*! \fn int carrePLusProche(int int_nombre)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
- *  \version 0.1
- *  \date 06 décembre 2021
+ *  \author Maxime ABADE <abademaxim@cy-tech.fr>
+ *  \version 1.0
+ *  \date 06 décembre 2022
  *
  *  \brief permet de trouver le carré le plus proche d'un nombre
  *

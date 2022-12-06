@@ -1,9 +1,9 @@
 /*!
-\file saisie.h
-\brief le fichier en-tête des fonctions de saisie
-\author Justine Ribas <ribasjusti@cy-tech.fr>
-\version 0.1
-\date 06 décembre 2021
+* \file saisie.h
+* \brief le fichier en-tête des fonctions de saisie
+* \author Maxime ABADE <abademaxim@cy-tech.fr>
+* \version 1.0
+* \date 06 décembre 2022
 */
 
 #ifndef SAISIE_H
@@ -18,9 +18,9 @@
 /* Déclaration des fonctions */
 
 /*! \fn void viderBuffer(void)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
- *  \version 0.1
- *  \date 11 décembre 2019
+ *  \author Maxime ABADE <abademaxim@cy-tech.fr>
+ *  \version 1.0
+ *  \date 06 décembre 2022
  *
  *  \brief vide le buffer
  * 
@@ -30,9 +30,9 @@ void viderBuffer(void);
 
 
 /*! \fn int saisirEntier(void)
- *  \author Justine Ribas <ribasjusti@cy-tech.fr>
- *  \version 0.1
- *  \date 11 décembre 2019
+ *  \author Maxime ABADE <abademaxim@cy-tech.fr>
+ *  \version 1.0
+ *  \date 06 décembre 2022
  *
  *  \brief vérifie la saisie d'un entier
  * 

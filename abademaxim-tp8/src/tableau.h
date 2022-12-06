@@ -1,9 +1,9 @@
 /*!
  * \file tableau.h
  *
- * \author Justine Ribas <ribasjusti@cy-tech.fr>
- * \version 0.1
- * \date 06 décembre 2021
+ * \author Maxime ABADE <abademaxim@cy-tech.fr>
+ * \version 1.0
+ * \date 06 décembre 2022
  *
  * \brief header des fonctions relatives aux tableaux
  *
@@ -23,9 +23,9 @@
 /**
  * \fn char** creerTabChar2D(int int_n)
  *
- * \author Justine Ribas <ribasjusti@eisti.eu>
- * \version 0.1
- * \date 06 décembre 2021
+ * \author Maxime ABADE <abademaxim@cy-tech.fr>
+ * \version 1.0
+ * \date 06 décembre 2022
  *
  * \brief permet de créer un tableau de caractères à deux dimensions
  *
@@ -39,9 +39,9 @@ char** creerTabChar2D(int int_n);
 /**
  * \fn void freeTab2D(char** ppchar_tab, int int_n)
  *
- * \author Justine Ribas <ribasjusti@eisti.eu>
- * \version 0.1
- * \date 06 décembre 2021
+ * \author Maxime ABADE <abademaxim@cy-tech.fr>
+ * \version 1.0
+ * \date 06 décembre 2022
  *
  * \brief permet de libérer l'espace mémoire des tableaux à deux dimenssions
  *
@@ -56,9 +56,9 @@ void freeTab2D(char** ppchar_tab, int int_n);
 /**
  * \fn void afficherTab(char** ppchar_tab, int int_n)
  *
- * \author Justine Ribas <ribasjusti@eisti.eu>
- * \version 0.1
- * \date 06 décembre 2021
+ * \author Maxime ABADE <abademaxim@cy-tech.fr>
+ * \version 1.0
+ * \date 06 décembre 2022
  *
  * \brief permet d'afficher un tableau de caractères à deux dimensions
  *

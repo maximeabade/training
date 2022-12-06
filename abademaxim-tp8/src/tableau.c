@@ -1,8 +1,8 @@
 /*!
  * \file tableau.c
  *
- * \author Justine Ribas <ribasjusti@cy-tech.fr>
- * \version 0.1
+ * \author Maxime ABADE <abademaxim@cy-tech.fr>
+ * \version 1.0
  * \date 06 décembre 2021
  *
  * \brief fonctions relatives aux tableaux

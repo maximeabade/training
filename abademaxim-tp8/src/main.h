@@ -3,10 +3,10 @@
 *
 * \brief le fichier en-tête de la fonction main
 *
-* \author Justine Ribas <ribasjusti@cy-tech.fr>
-* \version 0.1
+* \author Maxime ABADE <abademaxim@cy-tech.fr>
+* \version 1.0
 * 
-* \date 06 décembre 2021
+* \date 06 décembre 2022
 */
 
 #ifndef MAIN_H
@@ -27,9 +27,9 @@
 * 
 * \return 0 si tout s'est bien passé
 * 
-* \author Justine Ribas <ribasjusti@cy-tech.fr>
-* \version 0.1
-* \date 06 décembre 2021
+* \author Maxime ABADE <abademaxim@cy-tech.fr>
+* \version 1.0
+* \date 06 décembre 2022
 */
 int main(int argc, char *argv[]);
 
