@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
         if(strcmp(argv[1],"Scytale") == 0){
             scytale(str_line);
         }
-    }
+    } 
 
     // On retourne 0 pour indiquer que le programme s'est bien terminé
     return(0);
