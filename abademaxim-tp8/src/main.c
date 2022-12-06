@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
         printf("Vous devez entrer un argument\n");
     } else {
         // On demande à l'utilisateur de saisir une chaine de caractère
-        printf("Entrez une chaine de caractère : ");
+        printf("Entrez une chaine de caractère : ");  
         getline(&str_line, &longueur, stdin);
 
         // On code avec la méthode demandée
