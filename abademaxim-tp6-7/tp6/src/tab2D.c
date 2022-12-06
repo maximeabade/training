@@ -122,7 +122,7 @@ int aGagnerColonne(int ttint_plateau[N][N], int int_colonne)
     int_estAligne = 0;
     int_i = 0;
 
-    // Onvérifie si il y a 4 pions alignés identiques sur la colonne
+    // On vérifie si il y a 4 pions alignés identiques sur la colonne
     while(int_estAligne == 0 && int_i < N-3){
         int_pion = ttint_plateau[int_i][int_colonne];
         if(int_pion != -1){
