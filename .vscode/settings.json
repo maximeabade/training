@@ -1,9 +1,0 @@
-{
-    "editor.tabCompletion": "on",
-    "diffEditor.codeLens": true,
-    "files.associations": {
-        "exerciceinutile.h": "c",
-        "stdbool.h": "c",
-        "lecturepointeur.h": "c"
-    }
-}
