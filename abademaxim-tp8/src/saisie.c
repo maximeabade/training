@@ -7,7 +7,7 @@
 */
 
 /*inclusion des entêtes de librairie*/
-#include "saisie.h"
+#include "saisie.h" 
 
 // fonction pour vider le buffer
 void viderBuffer(void)
