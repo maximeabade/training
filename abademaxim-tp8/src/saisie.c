@@ -23,7 +23,7 @@ void viderBuffer(void)
 // fonction pour saisir un entier
 int saisirEntier(void)
 {
-  int int_nbrSaisi; //le nombre qui sera saisie
+  int int_nbrSaisi; //le nombre qui sera saisi
   while (!scanf("%d", &int_nbrSaisi)) {
     //on vide le buffer pour eviter une boucle infini
     viderBuffer();
