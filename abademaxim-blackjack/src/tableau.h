@@ -1,9 +1,9 @@
 /*!
-\file tableau.h
-\autor Jalbert Sylvain
-\version 1
-\date 19 novembre 2019
-\brief le fichier qui contient les déclarations de toutes les méthodes relatives aux manipulations de tableau
+    \file tableau.h
+    \author Maxime Abade <abademaxim@cy-tech.fr>
+    \version 1.0
+    \date 13/12/2022
+    \brief le fichier qui contient les déclarations de toutes les méthodes relatives aux manipulations de tableau
 */
 
 #ifndef __TABLEAU_H_
@@ -18,12 +18,11 @@
 
 /*!
 \fn int *creerTableauEntier ( int int_taille )
-\author Jalbert Sylvain
-\version 0.1 Premier jet
-\date 19 novembre 2019
-\brief une fonction qui creer un tableau d'entier
-\param int_taille la taille du tableau à creer
-\return le pointeur de la premiere case du tableau d'entier
+    \author Maxime Abade <abademaxim@cy-tech.fr>
+    \date 13/12/2022
+    \brief une fonction qui creer un tableau d'entier
+    \param int_taille la taille du tableau à creer
+    \return le pointeur de la premiere case du tableau d'entier
 */
 int *creerTableauEntier(int int_taille);
 

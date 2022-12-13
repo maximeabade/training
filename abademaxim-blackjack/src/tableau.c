@@ -1,29 +1,29 @@
 /*!
-\file tableau.c
-\autor Jalbert Sylvain
-\version 1
-\date 19 novembre 2019
-\brief le fichier qui contient les définitions de toutes les méthodes relatives aux manipulations de tableau
+  \file tableau.c
+  \author Maxime Abade <abademaxim@cy-tech.fr>
+  \version 1.0
+  \date 13/12/2022
+  \brief le fichier qui contient les définitions de toutes les méthodes relatives aux manipulations de tableau
 */
 
 #include "tableau.h"
 
 /*!
-\fn int *creerTableauEntier ( int int_taille )
-\author Jalbert Sylvain
-\version 0.1 Premier jet
-\date 19 novembre 2019
-\brief une fonction qui creer un tableau d'entier
-\param int_taille la taille du tableau à creer
-\return le pointeur de la premiere case du tableau d'entier
+  \fn int *creerTableauEntier ( int int_taille )
+  \author Maxime Abade <abademaxim@cy-tech.fr>
+  \version 1.0
+  \date 13/12/2022
+  \brief une fonction qui cree un tableau d'entier
+  \param int_taille la taille du tableau à creer
+  \return le pointeur de la premiere case du tableau d'entier
 */
 int *creerTableauEntier(int int_taille){
   //DECLARATION DES VARIABLES
-  int *tint_tab; //le poiteur vers la premiere case du tableau
+  int *tint_tab; //le pointeur vers la premiere case du tableau
 
   //ALLOCATION DE LA MEMOIRE
   tint_tab = malloc(int_taille * sizeof(int));
-  //Si l'allocation c'est fini en echec
+  //Si l'allocation s'est finie en echec
   if(tint_tab == NULL){
     //Avertir l'utilisateur
     printf("Erreur d'allocation mémoire !");

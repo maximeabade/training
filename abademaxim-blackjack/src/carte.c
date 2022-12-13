@@ -1,26 +1,26 @@
 /*!
-\file carte.c
-\autor Jalbert Sylvain
-\version 1
-\date 29 novembre 2019
-\brief le fichier qui contient les définitions de toutes les méthodes relatives aux manipulations des cartes
+  \file carte.c
+  \author Maxime Abade <abademaxim@cy-tech.fr>
+  \version 1.0
+  \date 13/12/2022
+  \brief le fichier qui contient les définitions de toutes les méthodes relatives aux manipulations des cartes
 */
 #include "carte.h"
 
 /*!
-\fn void *creerCartes(int int_taillePaquet)
-\author Jalbert Sylvain
-\version 0.1 Premier jet
-\date 29 novembre 2019
-\brief une procedure qui créer le jeu de 52 cartes.
-\param int_taillePaquet la taille du paquet de carte à creer
-\return sCarte_jeu le jeu de carte qui a été créé
+  \fn void *creerCartes(int int_taillePaquet)
+  \author Maxime Abade <abademaxim@cy-tech.fr>
+  \version 1.0 
+  \date 13/12/2022
+  \brief une procedure qui créer le jeu de 52 cartes.
+  \param int_taillePaquet la taille du paquet de carte à creer
+  \return sCarte_jeu le jeu de carte qui a été créé
 */
 void *creerCartes(int int_taillePaquet){
   //DECLARATION DES VARIABLES
   sCarte *sCarte_jeu; //le poiteur vers la premiere case du tableau
-  int int_num; //parcour les numeros des cartes (de 1 à 13 inclu)
-  int int_val; //parcour les numeros des cartes (de 1 à 10 inclu)
+  int int_num; //parcour les numeros des cartes (de 1 à 13 inclus)
+  int int_val; //parcour les numeros des cartes (de 1 à 10 inclus)
   int int_i; //parcour les cases du tableau de jeu de carte 4 par 4
 
   //ALLOCATION DE LA MEMOIRE
@@ -81,12 +81,12 @@ void *creerCartes(int int_taillePaquet){
 }
 
 /*!
-\fn void melangerCartes(sCarte *tsCarte_jeu)
-\author Jalbert Sylvain
-\version 0.1 Premier jet
-\date 29 novembre 2019
-\brief une procédure qui mélange le le jeu de 52 cartes. Pour ce faire on prend une carte au hasard qu'on echange avec la derniere carte et ce 500 fois.
-\param tsCarte_jeu[NBRCARTEJEU] le jeu de carte à mélanger
+  \fn void melangerCartes(sCarte *tsCarte_jeu)
+  \author Maxime Abade <abademaxim@cy-tech.fr>
+  \version 1.0 
+  \date 13/12/2022
+  \brief une procédure qui mélange le le jeu de 52 cartes. Pour ce faire on prend une carte au hasard qu'on echange avec la derniere carte et ce 500 fois.
+  \param tsCarte_jeu[NBRCARTEJEU] le jeu de carte à mélanger
 */
 void melangerCartes(sCarte *tsCarte_jeu){
   //DECLARATION DES VARIABLES
@@ -124,13 +124,13 @@ void melangerCartes(sCarte *tsCarte_jeu){
 }
 
 /*!
-\fn void afficherCartes(sCarte *sCarte_jeu, int int_tailleJeu)
-\author Jalbert Sylvain
-\version 0.1 Premier jet
-\date 29 novembre 2019
-\brief une procédure qui affiche le jeu de carte donné en parametre.
-\param sCarte_jeu le jeu de carte à afficher
-\param int_tailleJeu la taille du jeu de carte donné en parametre
+  \fn void afficherCartes(sCarte *sCarte_jeu, int int_tailleJeu)
+  \author Maxime Abade <abademaxim@cy-tech.fr>
+  \version 1.0 
+  \date 13/12/2022
+  \brief une procédure qui affiche le jeu de carte donné en parametre.
+  \param sCarte_jeu le jeu de carte à afficher
+  \param int_tailleJeu la taille du jeu de carte donné en parametre
 */
 void afficherCartes(sCarte *sCarte_jeu, int int_tailleJeu){
   //DECLARATION DES VARIABLES
@@ -231,15 +231,15 @@ void afficherCartes(sCarte *sCarte_jeu, int int_tailleJeu){
 }
 
 /*!
-\fn void distribuerCarte(sCarte *tsCarte_jeu, int *int_nbrCarteJeu, sCarte *tsCarte_main, int *int_nbrCarteMain)
-\author Jalbert Sylvain
-\version 0.1 Premier jet
-\date 02 decembre 2019
-\brief une procédure qui distribue une carte à un joueur.
-\param tsCarte_jeu[NBRCARTEJEU] le jeu de carte
-\param int_nbrCarteJeu le nombre de carte restante dans le jeu
-\param tsCarte_main les cartes en main du joueur
-\param tsCarte_main[NBRCARTEJOUEUR] le nombre de carte que le joueur possède en main
+  \fn void distribuerCarte(sCarte *tsCarte_jeu, int *int_nbrCarteJeu, sCarte *tsCarte_main, int *int_nbrCarteMain)
+  \author Maxime Abade <abademaxim@cy-tech.fr>
+  \version 1.0 
+  \date 13 decembre 2022
+  \brief une procédure qui distribue une carte à un joueur.
+  \param tsCarte_jeu[NBRCARTEJEU] le jeu de carte
+  \param int_nbrCarteJeu le nombre de carte restante dans le jeu
+  \param tsCarte_main les cartes en main du joueur
+  \param tsCarte_main[NBRCARTEJOUEUR] le nombre de carte que le joueur possède en main
 */
 void distribuerCarte(sCarte *tsCarte_jeu, int *int_nbrCarteJeu, sCarte *tsCarte_main, int *int_nbrCarteMain){
   //PRENDRE LA DERNIERE CARTE DU PAQUET ET LA METTRE A LA DERNIERE POSITION DU PAQUET DU JOUEUR

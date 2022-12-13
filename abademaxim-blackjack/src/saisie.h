@@ -1,9 +1,9 @@
 /*!
-\file saisie.h
-\autor Jalbert Sylvain
-\version 1
-\date 29 novembre 2019
-\brief le fichier qui contient les déclarations de toutes les méthodes relatives à la saisie
+    \file saisie.h
+    \author Maxime Abade <abademaxim@cy-tech.fr>
+    \version 1.0
+    \date 13/12/2022
+    \brief le fichier qui contient les déclarations de toutes les méthodes relatives à la saisie
 */
 
 #ifndef __SAISIE_H_
@@ -13,21 +13,21 @@
 #include <stdio.h>
 
 /*!
-\fn void viderBuffer ( void )
-\author Jalbert Sylvain
-\version 0.1 Premier jet
-\date 19 novembre 2019
-\brief une procedure qui va vider le buffer
+    \fn void viderBuffer ( void )
+    \author Maxime Abade <abademaxim@cy-tech.fr>
+    \version 1.0
+    \date 13/12/2022
+    \brief une procedure qui va vider le buffer
 */
 void viderBuffer(void);
 
 /*!
-\fn int saisirEntier ( void )
-\author Jalbert Sylvain
-\version 0.1 Premier jet
-\date 19 novembre 2019
-\brief une fonction qui renvoie un entier saisie par l'utilisateur
-\return l'entier saisie par l'utilisateur
+    \fn int saisirEntier ( void )
+    \author Maxime Abade <abademaxim@cy-tech.fr>
+    \version 1.0
+    \date 13/12/2022
+    \brief une fonction qui renvoie un entier saisi par l'utilisateur
+    \return l'entier saisi par l'utilisateur
 */
 int saisirEntier();
 
